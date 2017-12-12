@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Deedy - One Page Two Column Resume
 % LaTeX Template
-% Version 1.2 (16/9/2014)
+% Version 1.1 (30/4/2014)
 %
 % Original author:
 % Debarghya Das (http://debarghyadas.com)
@@ -15,16 +15,16 @@
 % default. If you get compilation errors saying a font is missing, find the line
 % on which the font is used and either change it to a font included with your
 % operating system or comment the line out to use the default font.
-% 
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
+%
 % TODO:
 % 1. Integrate biber/bibtex for article citation under publications.
 % 2. Figure out a smoother way for the document to flow onto the next page.
 % 3. Add styling information for a "Projects/Hacks" section.
 % 4. Add location/address information
 % 5. Merge OpenFont and MacFonts as a single sty with options.
-% 
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % CHANGELOG:
@@ -44,13 +44,9 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \documentclass[]{deedy-resume-openfont}
-\usepackage{fancyhdr}
- 
-\pagestyle{fancy}
-\fancyhf{}
- 
+
+
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -58,15 +54,17 @@
 %     LAST UPDATED DATE
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\lastupdated
+%\lastupdated
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Debarghya}{Das}{ \urlstyle{same}\href{http://debarghyadas.com}{debarghyadas.com}| \href{http://fb.co/dd}{fb.co/dd}\\
-\href{mailto:deedy@fb.com}{deedy@fb.com} | 607.379.5733 | \href{mailto:dd367@cornell.edu}{dd367@cornell.edu}
+
+\vspace*{25pt}
+\namesection{Mark}{Cui Pan}{ \urlstyle{same}\url{https://factcondenser.github.io/markcuipan-dot-com/} \\
+\href{mailto:markpan@live.com}{markpan@live.com} | 715.848.2672
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -75,169 +73,187 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth} 
+\begin{minipage}[t]{0.33\textwidth}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EDUCATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %     EDUCATION
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Education} 
+ \section{Education}
 
-\subsection{Cornell University}
-\descript{MEng in Computer Science}
-\location{Dec 2014 | Ithaca, NY}
-\sectionsep
+ \subsection{UW-Madison}
+ \descript{BS in Molecular Biology}
+ \location{May 2015 | Madison, WI}
+ Cert. in Chinese Professional Comm. \\
+ College of Letters and Sciences \\
+ Dean's List (Four Semesters) \\
+ \location{ Cum. GPA: 3.42 / 4.0}
+ \sectionsep
 
-\subsection{Cornell University}
-\descript{BS in Computer Science}
-\location{May 2014 | Ithaca, NY}
-College of Engineering \\
-Magna Cum Laude\\
-\location{ Cum. GPA: 3.83 / 4.0 \\
-Major GPA: 3.9 / 4.0}
-\sectionsep
+ \subsection{Wausau West}
+ \descript{High School Diploma}
+ \location{May 2011 | Wausau, WI}
+ \sectionsep
 
-\subsection{La Martiniere for Boys}
-\location{Grad. May 2011|  Kolkata, India}
-\sectionsep
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %     LINKS
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LINKS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \section{Links}
+ Github:// \href{https://github.com/factcondenser}{\bf{factcondenser}} \\
+ LinkedIn:// \href{https://www.linkedin.com/in/markcuipan}{\bf{markcuipan}} \\
+ %Quora: // \href{https://www.quora.com/mark-cui-pan}{\bf{Mark-Cui-Pan}}
+ \sectionsep
 
-\section{Links} 
-Facebook:// \href{https://facebook/dd}{\bf dd} \\
-Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
-LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
-YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
-Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
-Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %     COURSEWORK
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     COURSEWORK
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \section{Coursework}
+ \subsection{Self-Study}
+ HarvardX Intro to Computer Science \\
+ Michael Hartl's Ruby on Rails Tutorial \\
+ Udacity's Developing Android Apps
+ \sectionsep
 
-\section{Coursework}
-\subsection{Graduate}
-Advanced Machine Learning \\
-Open Source Software Engineering \\
-Advanced Interactive Graphics \\
-Compilers + Practicum \\
-Cloud Computing \\
-Evolutionary Computation \\
-Defending Computer Networks \\
-Machine Learning \\
-\sectionsep
+ \subsection{Undergraduate}
+ Data Structures and Algorithms \\
+ Computer Engineering \\
+ Artificial Intelligence
+ \sectionsep
 
-\subsection{Undergraduate}
-Information Retrieval \\
-Operating Systems \\
-Artificial Intelligence + Practicum \\
-Functional Programming \\
-Computer Graphics + Practicum \\
-{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
-Unix Tools and Scripting \\
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %     SKILLS
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \section{Skills}
+ \subsection{Programming}
+ \location{Most familiar with:}
+ Java \textbullet{} C \textbullet{} Python \\
+ \location{Somewhat familiar with:}
+ Rails \textbullet{} CSS \textbullet{} HTML \\
+ JavaScript \textbullet{} SQL \\
+ \location{Have dabbled in:}
+ Julia \textbullet{} Android \textbullet{} \LaTeX\
+ \sectionsep
 
-\section{Skills}
-\subsection{Programming}
-\location{Over 5000 lines:}
-Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript \\
-OCaml \textbullet{} Matlab \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
-\location{Over 1000 lines:}
-C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
-\location{Familiar:}
-AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
-\sectionsep
+ \subsection{Languages}
+ \location{Fluent}
+ English \textbullet{} Cantonese \\
+ \location{Competent:}
+ Mandarin \textbullet{} Spanish
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     COLUMN TWO
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\end{minipage} 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %
+ %     COLUMN TWO
+ %
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage}
 \hfill
-\begin{minipage}[t]{0.66\textwidth} 
+\begin{minipage}[t]{0.66\textwidth}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EXPERIENCE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %     EXPERIENCE
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Experience}
-\runsubsection{Facebook}
-\descript{| Software Engineer }
-\location{Jan 2015 - Present | New York, NY}
-\sectionsep
+ \section{Experience}
 
-\runsubsection{Coursera}
-\descript{| KPCB Fellow + Software Engineering Intern }
-\location{June 2014 – Sep 2014 | Mountain View, CA}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
-\item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
-\item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
-\end{tightemize}
-\sectionsep
+ \runsubsection{\href{http://markcuipan.com/tutor/}{Freelance}}
+ \descript{| Biology and Maths Instructor }
+ \location{Jun 2016 – Sep 2017 | Hong Kong \& China}
+ \vspace{\topsep} % Hacky fix for awkward extra vertical space
+ \begin{tightemize}
+  \item I taught biology and math to local and international students ranging in age from 8 to 18.\item I used web and mobile technology to track my students' progress and improve their outcomes.\item In any given month, I was accountable to anywhere from 10 to 20 individual clients.
+ \end{tightemize}
+ \sectionsep
 
-\runsubsection{Google}
-\descript{| Software Engineering Intern }
-\location{May 2013 – Aug 2013 | Mountain View, CA}
-\begin{tightemize}
-\item Worked on the YouTube Captions team, in Javascript and Python to plan, to design and develop the full stack to add and edit Automatic Speech Recognition captions. In production.\item Created a backbone.js-like framework for the Captions editor.\end{tightemize}
-\sectionsep
+ \runsubsection{\href{https://www.keystoneprep.com/}{Keystone}}
+ \descript{| Education Consultant and Instructor}
+ \location{Oct 2015 – May 2016 | Wong Chuk Hang, Hong Kong}
+ \begin{tightemize}
+  \item  I taught ACT Math, SSAT/SAT Quantitative, SAT Math Subjects, SAT Biology/EM Subject, AP/IB Biology, and MYP Math.\item I wrote diagnostic exams to identify gaps in student understanding and designed a math curriculum to address student needs, focusing in particular on translation of word problems into math symbols.\item I communicated regularly with clients via email, over the phone, and in person to address concerns, answer questions, and offer advice.
+ \end{tightemize}
+ \sectionsep
 
-\runsubsection{Phabricator}
-\descript{| Open Source Contributor \& Team Leader}
-\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
-\begin{tightemize}
-\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\item I created the Meme generator and more in PHP and Shell.\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.\end{tightemize}
-\sectionsep
+ \runsubsection{\href{https://win.wisc.edu/organization/aha}{AHA @UW-Madison}}
+ \descript{| Treasurer }
+ \location{Jan 2014 – Aug 2015 | Madison, WI}
+ \begin{tightemize}
+  \item I drafted the group's budget and secured over \$69,000 in funding.\item I analyzed accounting data from prior years to increase the group's operational efficiency by 11\%, saving nearly \$8,000 over the course of one fiscal year.
+ \end{tightemize}
+ \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %     RESEARCH
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Research}
-\runsubsection{Cornell Robot Learning Lab}
-\descript{| Researcher}
-\location{Jan 2014 – Jan 2015 | Ithaca, NY}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  
-\sectionsep
+ \section{Research}
+ \runsubsection{UW-Madison Dept. of Psych.}
+ \descript{| Undergraduate Researcher}
+ \location{Jan 2014 – Aug 2014 | Madison, WI}
+ Assisted \textbf{\href{https://www.researchgate.net/profile/Stacey_Kigar}{Stacey Kigar}} and \textbf{\href{https://psych.wisc.edu/faculty-anthony-auger.htm}{Prof. Tony Auger}} with data collection and analysis to study epigenetic mechanisms using the central nervous system of Rattus spp. as a model. Wrote a Python script to perform calculations and expedite the process of cDNA synthesis.
+ \sectionsep
 
-\runsubsection{Cornell Phonetics Lab}
-\descript{| Head Undergraduate Researcher}
-\location{Mar 2012 – May 2013 | Ithaca, NY}
-Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. 
-\sectionsep
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %     AWARDS & ACCOMPLISHMENTS
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \section{Awards \& Accomplishments}
+ \begin{tabular}{rll}
+  2014 & Top Third                & CS540 Intra-Class Nannon Bot Tournament                                                                      \\
+  2011 & National                 & \href{https://apcentral.collegeboard.org/score-reports-data/awards/scholar-awards}{National AP Scholar}      \\
+  2011 & State                    & \href{http://www.heab.state.wi.us/academicexcellence/hard_copy.html}{Wisconsin Academic Excellence Award}    \\
+  2011 & 2\textsuperscript{nd}/50 & Wisconsin Science Olympiad Tournament                                                                        \\
+  2011 & State                    & \href{https://www.dar.org/national-society/scholarships/dar-related}{DAR Good Citizens Award \& Scholarship}
+ \end{tabular}
+ \sectionsep
 
-\section{Awards} 
-\begin{tabular}{rll}
-2014	     & top 52/2500  & KPCB Engineering Fellow\\
-2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-2013	     & National  & Jump Trading Challenge Finalist\\
-2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
-2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
-2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
-\end{tabular}
-\sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PUBLICATIONS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %
+ %     COLUMN TWO A
+ %
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Publications} 
-\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
-\bibliographystyle{abbrv}
-\bibliography{publications}
-\nocite{*}
+ \begin{minipage}[t]{.33\textwidth}
 
-\end{minipage} 
-\end{document}  \documentclass[]{article}
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %     AVAILABILITY
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \section{Availability}
+  \bf{Immediate}
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %
+  %     COLUMN TWO B
+  %
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ \end{minipage}
+ \hfill
+ \begin{minipage}[t]{.66\textwidth}
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %     REFERENCES
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \section{References}
+  \bf{Westley Bonack} \textbullet{} \bf{Software Engineer at} \bf{\href{http://www.gettyimages.com/}{Getty Images}}
+  \bf{\href{mailto:westley.bonack@gmail.com}{westley.bonack@gmail.com}} | \bf{414.502.7709}
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %     PUBLICATIONS
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %\section{Publications}
+  %\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
+  %\bibliographystyle{abbrv}
+  %\bibliography{publications}
+  %\nocite{*}
+
+
+ \end{minipage}
+\end{minipage}
+\end{document} \documentclass[]{article}
