@@ -63,7 +63,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \vspace*{25pt}
-\namesection{Mark}{Cui Pan}{ \urlstyle{same}\url{http://markcuipan.com} \\
+\namesection{Mark}{Cui Pan}{ \urlstyle{same}\url{https://markcuipan.com} \\
 \href{mailto:markpan@live.com}{markpan@live.com} | 715.432.2672
 }
 
@@ -129,10 +129,11 @@
  \section{Skills}
  \subsection{Programming}
  \location{Most familiar with:}
- Java \textbullet{} C \textbullet{} Python \\
+ Java \textbullet{} HTML \textbullet{} CSS \\
+ JavaScript \\
  \location{Somewhat familiar with:}
- Rails \textbullet{} CSS \textbullet{} HTML \\
- JavaScript \textbullet{} SQL \\
+ Rails \textbullet{} SQL \\
+ C \textbullet{} Python \\
  \location{Have dabbled in:}
  Julia \textbullet{} Android \textbullet{} \LaTeX\
  \sectionsep
@@ -160,7 +161,7 @@
 
  \section{Experience}
 
- \runsubsection{\href{http://markcuipan.com/tutor/}{Freelance}}
+ \runsubsection{\href{https://markcuipan.com/tutor/}{Freelance}}
  \descript{| Biology and Maths Instructor }
  \location{Jun 2016 – Sep 2017 | Hong Kong \& China}
  \vspace{\topsep} % Hacky fix for awkward extra vertical space
