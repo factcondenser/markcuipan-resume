@@ -48,6 +48,7 @@
 
 
 \begin{document}
+\protected\def\hreftutor{\href{https://markcuipan.com/tutor/}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -161,20 +162,20 @@
 
  \section{Experience}
 
- \runsubsection{\href{https://markcuipan.com/tutor/}{Freelance}}
- \descript{| Biology and Maths Instructor }
- \location{Jun 2016 – Sep 2017 | Hong Kong \& China}
+ \runsubsection{\href{https://www.baozitutors.com}{Baozi Tutors}}
+ \descript{| Cofounder}
+ \location{Oct 2017 – Present | Hong Kong}
  \vspace{\topsep} % Hacky fix for awkward extra vertical space
  \begin{tightemize}
-  \item I taught biology and math to local and international students ranging in age from 8 to 18.\item I used web and mobile technology to track my students' progress and improve their outcomes.\item In any given month, I was accountable to anywhere from 10 to 20 individual clients.
+  \item I built this web-based tutor-matching platform with my cofounder using Ruby on Rails and a test-driven, iterative workflow.\item We're currently in the process of user acquisition, and I'm leveraging my extensive network of connections in the field to expand our base.
  \end{tightemize}
  \sectionsep
 
- \runsubsection{\href{https://www.keystoneprep.com/}{Keystone}}
+ \runsubsection{\href{https://www.keystoneprep.com/}{Keystone}/\hreftutor{Freelance}}
  \descript{| Education Consultant and Instructor}
- \location{Oct 2015 – May 2016 | Wong Chuk Hang, Hong Kong}
+ \location{Oct 2015 – Sep 2017 | Hong Kong}
  \begin{tightemize}
-  \item  I taught ACT Math, SSAT/SAT Quantitative, SAT Math Subjects, SAT Biology/EM Subject, AP/IB Biology, and MYP Math.\item I wrote diagnostic exams to identify gaps in student understanding and designed a math curriculum to address student needs, focusing in particular on translation of word problems into math symbols.\item I communicated regularly with clients via email, over the phone, and in person to address concerns, answer questions, and offer advice.
+  \item  I taught ACT Math, SSAT/SAT Quantitative, SAT Math Subjects, SAT Biology/EM Subject, AP/IB Biology, and MYP Math to local and international students ranging in age from 8 to 18.\item In any given month, I was accountable to anywhere from 10 to 20 individual clients, with whom I communicated regularly via email, over the phone, and in person.
  \end{tightemize}
  \sectionsep
 
@@ -211,6 +212,15 @@
  \end{tabular}
  \sectionsep
 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %     REFERENCES
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \section{References}
+ \textbf{Westley Bonack} | Software Engineer, \textbf{\href{http://www.gettyimages.com/}{Getty Images}} \\
+ \href{mailto:westley.bonack@gmail.com}{westley.bonack@gmail.com} | 414.502.7709 \\
+ \sectionsep
+ \textbf{Bos Smith} | Senior Vice President, \textbf{\href{http://www.seaburytfx.com/}{Seabury TFX}} \\
+ \href{mailto:bsmith@seaburytfx.com}{bsmith@seaburytfx.com} | +852.5200.5076 \\
 
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  %
@@ -218,14 +228,14 @@
  %
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
- \begin{minipage}[t]{.33\textwidth}
+ %\begin{minipage}[t]{.33\textwidth}
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %     AVAILABILITY
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-  \section{Availability}
-  \bf{Immediate}
+  %\section{Availability}
+  %\bf{Immediate}
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %
@@ -233,17 +243,15 @@
   %
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
- \end{minipage}
- \hfill
- \begin{minipage}[t]{.66\textwidth}
+ %\end{minipage}
+ %\hfill
+ %\begin{minipage}[t]{.66\textwidth}
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %     REFERENCES
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-  \section{References}
-  \textbf{Westley Bonack} | Software Engineer, \textbf{\href{http://www.gettyimages.com/}{Getty Images}} \\
-  \href{mailto:westley.bonack@gmail.com}{westley.bonack@gmail.com} | 414.502.7709
+  % where references used to be
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %     PUBLICATIONS
@@ -255,6 +263,6 @@
   %\nocite{*}
 
 
- \end{minipage}
+ %\end{minipage}
 \end{minipage}
 \end{document} \documentclass[]{article}
