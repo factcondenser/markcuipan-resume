@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.12.29)  18 JAN 2018 12:45
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.12.29)  18 JAN 2018 13:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -879,17 +879,17 @@ LaTeX Font Warning: Font shape `TU/Lato-Bol(0)/bx/n' undefined
 (Font)              using `TU/Lato-Bol(0)/m/n' instead on input line 85.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 138.
+(Font)              <7> on input line 137.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 138.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
+(Font)              <5> on input line 137.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 266.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 266.
  (./markcuipan-resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 267.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 267.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 266.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 266.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -898,7 +898,7 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 266.
  ) 
 Here is how much of TeX's memory you used:
  18476 strings out of 494511
