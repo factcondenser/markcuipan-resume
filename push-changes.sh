@@ -1,7 +1,7 @@
 #!/bin/bash
 # A script for automatically updating my portfolio site's resume asset and pushing the changes to GitHub
-YELLOW='\033[1;33]'
-GREEN='\033[0;32]'
+YELLOW='\033[1;33m'
+GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 
 printf "${YELLOW}Enter a commit message:${NC}"
