@@ -86,7 +86,6 @@
  \descript{BS in Molecular Biology}
  \location{May 2015 | Madison, WI}
  Cert. in Chinese Professional Comm. \\
- College of Letters and Sciences \\
  Dean's List (All four years) \\
  \sectionsep
 
@@ -134,9 +133,9 @@
  \location{Proficient with:}
  JavaScript \textbullet{} React \\
  HTML \textbullet{} CSS \textbullet{} SQL \\
- Rails \textbullet{} Java \\
+ Rails \textbullet{} Java \textbullet{} Git \\
  \location{Familiar with:}
- C \textbullet{} Python \\
+ C \textbullet{} Python  \textbullet{} Shell \\
  \location{Have dabbled in:}
  Julia \textbullet{} Android \textbullet{} \LaTeX\
  \sectionsep
@@ -169,7 +168,7 @@
  \location{Oct 2017 – Present | Hong Kong}
  \vspace{\topsep} % Hacky fix for awkward extra vertical space
  \begin{tightemize}
-  \item I built this web-based tutor-matching platform with my cofounder using Ruby on Rails and a test-driven, iterative workflow.\item We're currently in the process of user acquisition, and I'm leveraging my extensive network of connections in the field to expand our base.
+  \item I built this web-based tutor-matching platform with my co-founder using Ruby on Rails and a test-driven, iterative workflow.\item We're currently in the process of making the app PWA-compliant to expand our user base.
  \end{tightemize}
  \sectionsep
 
