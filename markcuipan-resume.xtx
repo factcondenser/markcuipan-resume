@@ -188,7 +188,7 @@
  \location{Oct 2015 – Sep 2017 | Hong Kong}
  \begin{tightemize}
   \item I taught ACT/SAT Math, SAT Biology, AP/IB Biology, and linear algebra.
-  \item I made a \textbf{\href{https://markpantutor.wordpress.com/}{WordPress site}} to advertise my services and later migrated it to a \textbf{\href{https://www.markcuipan.com/tutor/}{page}} on my portfolio site. I built the page from scratch using HTML5, CSS3, and JS. I used Bootstrap and media queries to make it responsive and painstakingly took its \href{https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fmarkcuipan.com%2Ftutor%2F&tab=mobile}{\textbf{PageSpeed Insights}} score from 43 to 100/100, learning tons about cache-control, CDNs, design standards, and asset-optimization in the process.
+  \item I made a \textbf{\href{https://markpantutor.wordpress.com/}{WordPress site}} to advertise my services and later migrated it to a \textbf{\href{https://www.markcuipan.com/tutor/}{page}} on my portfolio site. I built the page from scratch using HTML5, CSS3, and JS. I used Bootstrap and media queries to make it responsive and painstakingly took its \href{https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fmarkcuipan.com%2Ftutor%2F&tab=mobile}{\textbf{PageSpeed Insights}} score from 43 to 100/100, learning tons about asset-optimization, design standards, \textbf{\href{https://www.cloudflare.com/}{CDN}}s, and cache-control in the process.
   \item I was accountable to anywhere from 10 to 20 individual clients per month.
  \end{tightemize}
  \sectionsep
