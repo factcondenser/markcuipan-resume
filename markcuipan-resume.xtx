@@ -55,7 +55,7 @@
 %     LAST UPDATED DATE
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\lastupdated
+\lastupdated
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -63,7 +63,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace*{25pt}
+\vspace*{20pt}
 \namesection{Mark}{Cui Pan}{ \urlstyle{same}\url{https://markcuipan.com} \\
 \href{mailto:markpan@live.com}{markpan@live.com} | 715.432.2672
 }
@@ -86,7 +86,8 @@
  \descript{BS in Molecular Biology}
  \location{May 2015 | Madison, WI}
  Cert. in Chinese Professional Comm. \\
- Dean's List (All four years) \\
+ Dean's List (four semesters) \\
+ Cumulative GPA: 3.42 out of 4 \\
  \sectionsep
 
  \subsection{Wausau West}
@@ -168,23 +169,27 @@
  \location{Oct 2017 – Present | Hong Kong}
  \vspace{\topsep} % Hacky fix for awkward extra vertical space
  \begin{tightemize}
-  \item I built this web-based tutor-matching platform with my co-founder using Ruby on Rails and a test-driven, iterative workflow.\item We're currently in the process of making the app PWA-compliant to expand our user base.
+  \item I built this web-based tutor-matching platform with my co-founder using \textbf{\href{http://rubyonrails.org/}{Ruby on Rails}} and a test-driven, iterative workflow. We're currently in the process of making the app \textbf{\href{https://developers.google.com/web/progressive-web-apps/}{PWA-compliant}} to expand our user base.
+  \item I'm building the whole thing again using the \textbf{\href{http://mern.io/}{MERN}} stack to get more familiar with \textbf{\href{https://reactjs.org/}{React}} and \textbf{\href{https://nodejs.org/en/}{Node}}.
  \end{tightemize}
  \sectionsep
 
- \runsubsection{\href{https://www.keystoneprep.com/}{Keystone}/\hreftutor{Freelance}}
- \descript{| Education Consultant and Instructor}
+ \runsubsection{\href{http://optimizeyourgrow.com}{Optimize Your Grow}}
+ \descript{| Contractor }
+ \location{Fall 2017 | Oakland, CA}
+ \begin{tightemize}
+  \item Requests were timing out because the server was busy solving an optimization problem. Despite a dearth of resources detailing how to get Julia to play nice with Heroku, I resolved the issue and learned a ton about \textbf{\href{https://devcenter.heroku.com/articles/process-model}{Heroku's process model}}, multithreading, and \textbf{\href{https://www.rabbitmq.com/}{task queues}}.
+  \item I also learned the value of communicating early and often - both in code and in customer relations - and gained a better appreciation for the Minimum Viable Product. The difference between 'good enough for now' and 'perfect a while later' is money my clients could be making.
+ \end{tightemize}
+ \sectionsep
+
+ \runsubsection{\href{https://www.keystoneprep.com/}{Keystone}/\href{https://www.markcuipan.com/tutor/}{Freelance}}
+ \descript{| Math and Biology Instructor}
  \location{Oct 2015 – Sep 2017 | Hong Kong}
  \begin{tightemize}
-  \item  I taught ACT Math, SSAT/SAT Quantitative, SAT Math Subjects, SAT Biology/EM Subject, AP/IB Biology, and MYP Math to local and international students ranging in age from 8 to 18.\item In any given month, I was accountable to anywhere from 10 to 20 individual clients, with whom I communicated regularly via email, over the phone, and in person.
- \end{tightemize}
- \sectionsep
-
- \runsubsection{\href{https://win.wisc.edu/organization/aha}{AHA @UW-Madison}}
- \descript{| Treasurer }
- \location{Jan 2014 – Aug 2015 | Madison, WI}
- \begin{tightemize}
-  \item I drafted the group's budget and secured over \$69,000 in funding.\item I analyzed accounting data from prior years to increase the group's operational efficiency by 11\%, saving nearly \$8,000 over the course of one fiscal year.
+  \item I taught ACT/SAT Math, SAT Biology, AP/IB Biology, and linear algebra.
+  \item I made a \textbf{\href{https://markpantutor.wordpress.com/}{WordPress site}} to advertise my services and later migrated it to a \textbf{\href{https://www.markcuipan.com/tutor/}{page}} on my portfolio site. I built the page from scratch using HTML5, CSS3, and JS. I used Bootstrap and media queries to make it responsive and painstakingly took its \href{https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fmarkcuipan.com%2Ftutor%2F&tab=mobile}{\textbf{PageSpeed Insights}} score from 43 to 100/100, learning tons about cache-control, CDNs, design standards, and asset-optimization in the process.
+  \item I was accountable to anywhere from 10 to 20 individual clients per month.
  \end{tightemize}
  \sectionsep
 
@@ -196,7 +201,7 @@
  \runsubsection{UW-Madison Dept. of Psych.}
  \descript{| Undergraduate Researcher}
  \location{Jan 2014 – Aug 2014 | Madison, WI}
- Assisted \textbf{\href{https://www.researchgate.net/profile/Stacey_Kigar}{Stacey Kigar}} and \textbf{\href{https://psych.wisc.edu/faculty-anthony-auger.htm}{Prof. Tony Auger}} with data collection and analysis to study epigenetic mechanisms using the central nervous system of Rattus spp. as a model. Wrote a Python script to perform calculations and expedite the process of cDNA synthesis.
+ Assisted \textbf{\href{https://www.researchgate.net/profile/Stacey_Kigar}{Stacey Kigar}} and \textbf{\href{https://psych.wisc.edu/faculty-anthony-auger.htm}{Prof. Tony Auger}} with data collection and analysis to study epigenetic mechanisms using the central nervous system of Rattus spp. as a model. Wrote a \textbf{\href{https://github.com/factcondenser/calculate-concentrations}{Python script}} to perform calculations and expedite cDNA synthesis.
  \sectionsep
 
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -219,9 +224,9 @@
  \section{References}
  \textbf{Westley Bonack} | Software Engineer, \textbf{\href{http://www.gettyimages.com/}{Getty Images}} \\
  \href{mailto:westley.bonack@gmail.com}{westley.bonack@gmail.com} | 414.502.7709 \\
- \sectionsep
- \textbf{Bos Smith} | Senior Vice President, \textbf{\href{http://www.seaburytfx.com/}{Seabury TFX}} \\
- \href{mailto:bsmith@seaburytfx.com}{bsmith@seaburytfx.com} | +852.5200.5076 \\
+ %\sectionsep
+ %\textbf{Bos Smith} | Senior Vice President, %\textbf{\href{http://www.seaburytfx.com/}{Seabury TFX}} \\
+%\href{mailto:bsmith@seaburytfx.com}{bsmith@seaburytfx.com} | +852.5200.5076 \\
 
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  %
