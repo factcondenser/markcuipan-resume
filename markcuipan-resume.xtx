@@ -169,7 +169,7 @@
  \location{Oct 2017 – Present | Hong Kong}
  \vspace{\topsep} % Hacky fix for awkward extra vertical space
  \begin{tightemize}
-  \item I built this web-based tutor-matching platform with my co-founder using \textbf{\href{http://rubyonrails.org/}{Ruby on Rails}} and a test-driven, iterative workflow. We're currently in the process of making the app \textbf{\href{https://developers.google.com/web/progressive-web-apps/}{PWA-compliant}} to expand our user base.
+  \item I built this web-based tutor-matching platform with my co-founder using \textbf{\href{http://rubyonrails.org/}{Ruby on Rails}} and a test-driven, iterative workflow. I'm currently in the process of making the app \textbf{\href{https://developers.google.com/web/progressive-web-apps/}{PWA-compliant}} to expand our user base.
   \item I'm building the whole thing again using the \textbf{\href{http://mern.io/}{MERN}} stack to get more familiar with \textbf{\href{https://reactjs.org/}{React}} and \textbf{\href{https://nodejs.org/en/}{Node}}.
  \end{tightemize}
  \sectionsep
