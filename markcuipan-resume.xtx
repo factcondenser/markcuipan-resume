@@ -104,7 +104,7 @@
  \section{Links}
  Github:// \href{https://github.com/factcondenser}{\bf{factcondenser}} \\
  LinkedIn:// \href{https://www.linkedin.com/in/markcuipan}{\bf{markcuipan}} \\
- %Quora: // \href{https://www.quora.com/mark-cui-pan}{\bf{Mark-Cui-Pan}}
+ Quora: // \href{https://www.quora.com/mark-cui-pan}{\bf{Mark-Cui-Pan}}
  \sectionsep
 
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -137,6 +137,7 @@
  Rails \textbullet{} Java \textbullet{} Git \\
  \location{Familiar with:}
  C \textbullet{} Python  \textbullet{} Shell \\
+ Heroku \textbullet{} Docker \\
  \location{Have dabbled in:}
  Julia \textbullet{} Android \textbullet{} \LaTeX\
  \sectionsep
@@ -170,7 +171,7 @@
  \vspace{\topsep} % Hacky fix for awkward extra vertical space
  \begin{tightemize}
   \item I built this web-based tutor-matching platform with my co-founder using \textbf{\href{http://rubyonrails.org/}{Ruby on Rails}} and a test-driven, iterative workflow. I'm currently in the process of making the app \textbf{\href{https://developers.google.com/web/progressive-web-apps/}{PWA-compliant}} to expand our user base.
-  \item I'm building the whole thing again using the \textbf{\href{http://mern.io/}{MERN}} stack to get more familiar with \textbf{\href{https://reactjs.org/}{React}} and \textbf{\href{https://nodejs.org/en/}{Node}}.
+  \item I'm building the whole thing again using the \textbf{\href{http://mern.io/}{MERN}} stack to become more familiar with \textbf{\href{https://reactjs.org/}{React}} and \textbf{\href{https://nodejs.org/en/}{Node}}.
  \end{tightemize}
  \sectionsep
 
@@ -178,7 +179,7 @@
  \descript{| Contractor }
  \location{Fall 2017 | Oakland, CA}
  \begin{tightemize}
-  \item Requests were timing out because the server was busy solving an optimization problem. Despite a dearth of resources detailing how to get Julia to play nice with Heroku, I resolved the issue and learned a ton about \textbf{\href{https://devcenter.heroku.com/articles/process-model}{Heroku's process model}}, multithreading, and \textbf{\href{https://www.rabbitmq.com/}{task queues}}.
+  \item Requests were timing out because the server was busy solving an optimization problem. Despite a dearth of resources detailing how to get Julia to play nice with Heroku, I resolved the issue and learned a ton about \textbf{\href{https://devcenter.heroku.com/articles/process-model}{Heroku's process model}}, concurrency, and \textbf{\href{https://www.rabbitmq.com/}{task queues}}.
   \item I also learned the value of communicating early and often - both in code and in customer relations - and gained a better appreciation for the Minimum Viable Product. The difference between 'good enough for now' and 'perfect a while later' is money my clients could be making.
  \end{tightemize}
  \sectionsep
