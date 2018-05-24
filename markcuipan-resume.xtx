@@ -134,11 +134,11 @@
  \location{Experienced in:}
  Rails \textbullet{} React \textbullet{} GraphQL \\
  RSpec \textbullet{} Capybara \textbullet{} BDD \\
- HTML5 \textbullet{} CSS3 \textbullet{} SQL
- Bash \textbullet{} Git \textbullet{} Scrum
+ HTML5 \textbullet{} CSS3 \textbullet{} SQL \\
+ Node \textbullet{} Bash \textbullet{} Git \textbullet{} Scrum \\
  \location{Familiar with:}
  Python \textbullet{} Java \textbullet{} C \\
- AWS \textbullet{} Heroku \textbullet{} Docker \\\
+ AWS \textbullet{} Heroku \textbullet{} Docker \\
  \location{Have dabbled in:}
  Julia \textbullet{} Android \textbullet{} \LaTeX\
  \sectionsep
@@ -166,13 +166,22 @@
 
  \section{Experience}
 
+ \runsubsection{\href{https://www.glbrc.org/}{Wisconsin Energy Institute}}
+ \descript{| Software Engineer}
+ \location{Feb 2018 – Present | Madison, WI}
+ \vspace{\topsep} % Hacky fix for awkward extra vertical space
+ \begin{tightemize}
+  \item I build web tools to help researchers organize and analyze their data.
+  \item I work with a small team of developers in an agile, value-driven environment. I frequently meet one-on-one with users to cater our software to their evolving needs.
+ \end{tightemize}
+ \sectionsep
+
  \runsubsection{\href{https://www.baozitutors.com}{Baozi Tutors}}
  \descript{| Co-founder}
  \location{Oct 2017 – Present | Hong Kong}
- \vspace{\topsep} % Hacky fix for awkward extra vertical space
  \begin{tightemize}
   \item I built this web-based tutor-matching platform with my co-founder using \textbf{\href{http://rubyonrails.org/}{Ruby on Rails}} and a test-driven, iterative workflow. I'm currently in the process of making the app \textbf{\href{https://developers.google.com/web/progressive-web-apps/}{PWA-compliant}} to expand our user base.
-  \item I'm building the whole thing again using the \textbf{\href{http://mern.io/}{MERN}} stack to become more familiar with \textbf{\href{https://reactjs.org/}{React}} and \textbf{\href{https://nodejs.org/en/}{Node}}.
+  \item I made a \textbf{\href{https://markpantutor.wordpress.com/}{WordPress site}} to advertise my personal tutoring services and later migrated it to a \textbf{\href{https://www.markcuipan.com/tutor/}{page}} on my portfolio site. I built the page from scratch using HTML5, CSS3, and JS. I used Bootstrap and media queries to make it responsive and painstakingly took its \href{https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fmarkcuipan.com%2Ftutor%2F&tab=mobile}{\textbf{PageSpeed Insights}} score from 43 to 100/100, learning tons about asset-optimization, design standards, \textbf{\href{https://www.cloudflare.com/}{CDN}}s, and cache-control in the process.
  \end{tightemize}
  \sectionsep
 
@@ -182,16 +191,6 @@
  \begin{tightemize}
   \item Requests were timing out because the server was busy solving an optimization problem. Despite a dearth of resources detailing how to get Julia to play nice with Heroku, I resolved the issue and learned a ton about \textbf{\href{https://devcenter.heroku.com/articles/process-model}{Heroku's process model}}, concurrency, and \textbf{\href{https://www.rabbitmq.com/}{task queues}}.
   \item I also learned the value of communicating early and often - both in code and in customer relations - and gained a better appreciation for the Minimum Viable Product. The difference between 'good enough for now' and 'perfect a while later' is money my clients could be making.
- \end{tightemize}
- \sectionsep
-
- \runsubsection{\href{https://www.keystoneprep.com/}{Keystone}/\href{https://www.markcuipan.com/tutor/}{Freelance}}
- \descript{| Math and Biology Instructor}
- \location{Oct 2015 – Sep 2017 | Hong Kong}
- \begin{tightemize}
-  \item I taught ACT/SAT Math, SAT Biology, AP/IB Biology, and linear algebra.
-  \item I made a \textbf{\href{https://markpantutor.wordpress.com/}{WordPress site}} to advertise my services and later migrated it to a \textbf{\href{https://www.markcuipan.com/tutor/}{page}} on my portfolio site. I built the page from scratch using HTML5, CSS3, and JS. I used Bootstrap and media queries to make it responsive and painstakingly took its \href{https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fmarkcuipan.com%2Ftutor%2F&tab=mobile}{\textbf{PageSpeed Insights}} score from 43 to 100/100, learning tons about asset-optimization, design standards, \textbf{\href{https://www.cloudflare.com/}{CDN}}s, and cache-control in the process.
-  \item I was accountable to anywhere from 10 to 20 individual clients per month.
  \end{tightemize}
  \sectionsep
 
