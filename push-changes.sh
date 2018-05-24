@@ -24,6 +24,6 @@ echo -e "${GREEN}Switching to portfolio site local repo${NC}"
 cd ~/workspace/markcuipan-dot-com/
 
 echo -e "${GREEN}About to push changes to portfolio site github repo${NC}"
-git add $RESUME_NAME.pdf
+git add resume/$RESUME_NAME.pdf
 git commit -m "$COMMIT_MESSAGE"
 git push origin master
