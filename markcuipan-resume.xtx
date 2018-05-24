@@ -131,13 +131,14 @@
 
  \section{Skills}
  \subsection{Programming}
- \location{Proficient with:}
- JavaScript \textbullet{} React \\
- HTML \textbullet{} CSS \textbullet{} SQL \\
- Rails \textbullet{} Java \textbullet{} Git \\
+ \location{Experienced in:}
+ Rails \textbullet{} React \textbullet{} GraphQL \\
+ RSpec \textbullet{} Capybara \textbullet{} BDD \\
+ HTML5 \textbullet{} CSS3 \textbullet{} SQL
+ Bash \textbullet{} Git \textbullet{} Scrum
  \location{Familiar with:}
- C \textbullet{} Python  \textbullet{} Shell \\
- Heroku \textbullet{} Docker \\
+ Python \textbullet{} Java \textbullet{} C \\
+ AWS \textbullet{} Heroku \textbullet{} Docker \\\
  \location{Have dabbled in:}
  Julia \textbullet{} Android \textbullet{} \LaTeX\
  \sectionsep
