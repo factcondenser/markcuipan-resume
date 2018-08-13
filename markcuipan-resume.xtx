@@ -104,7 +104,7 @@
  \section{Links}
  Github:// \href{https://github.com/factcondenser}{\bf{factcondenser}} \\
  LinkedIn:// \href{https://www.linkedin.com/in/markcuipan}{\bf{markcuipan}} \\
- Quora: // \href{https://www.quora.com/mark-cui-pan}{\bf{Mark-Cui-Pan}}
+ % Quora: // \href{https://www.quora.com/mark-cui-pan}{\bf{Mark-Cui-Pan}}
  \sectionsep
 
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -132,15 +132,16 @@
  \section{Skills}
  \subsection{Programming}
  \location{Experienced in:}
- Rails \textbullet{} React \textbullet{} GraphQL \\
+ Ruby \textbullet{} Rails \textbullet{} JavaScript \\
  RSpec \textbullet{} Capybara \textbullet{} BDD \\
  HTML5 \textbullet{} CSS3 \textbullet{} SQL \\
- Node \textbullet{} Bash \textbullet{} Git \textbullet{} Scrum \\
+ Bash \textbullet{} Git \textbullet{} Scrum \\
  \location{Familiar with:}
- Python \textbullet{} Java \textbullet{} C \\
+ React \textbullet{} Python \textbullet{} Java \textbullet{} C \\
  AWS \textbullet{} Heroku \textbullet{} Docker \\
  \location{Have dabbled in:}
- Julia \textbullet{} Android \textbullet{} \LaTeX\
+ GraphQL \textbullet{} Android \\
+ Node \textbullet{} Julia \textbullet{} \LaTeX\
  \sectionsep
 
  \subsection{Languages}
