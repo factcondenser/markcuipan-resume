@@ -94,7 +94,8 @@
  \descript{High School Diploma}
  \location{May 2011 | Wausau, WI}
  Valedictorian \\
- Outstanding English Student \\
+ National AP Scholar \\
+ %Outstanding English Student \\
  \sectionsep
 
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -115,8 +116,8 @@
  \subsection{Self-Study}
  HarvardX Intro to Computer Science \\
  Michael Hartl's Ruby on Rails Tutorial \\
- Udacity's Developing Android Apps \\
- Andrew Ng's Machine Learning
+ Udacity's Developing Android Apps
+ % Andrew Ng's Machine Learning
  \sectionsep
 
  \subsection{Undergraduate}
@@ -131,16 +132,15 @@
 
  \section{Skills}
  \subsection{Programming}
- \location{Experienced in:}
+ \location{Most comfortable with:}
  Ruby \textbullet{} Rails \textbullet{} JavaScript \\
- RSpec \textbullet{} Capybara \textbullet{} BDD \\
+ RSpec \textbullet{} Capybara \textbullet{} Scrum \\
  HTML5 \textbullet{} CSS3 \textbullet{} SQL \\
- Bash \textbullet{} Git \textbullet{} Scrum \\
- \location{Familiar with:}
- React \textbullet{} Python \textbullet{} Java \textbullet{} C \\
- AWS \textbullet{} Heroku \textbullet{} Docker \\
+ \location{Working knowledge of:}
+ React \textbullet{} Python \textbullet{} C \textbullet{} Bash \\
+ Git \textbullet{} Docker \textbullet{} AWS \textbullet{} Heroku \\
  \location{Have dabbled in:}
- GraphQL \textbullet{} Android \\
+ GraphQL \textbullet{} Swift \textbullet{} Android \\
  Node \textbullet{} Julia \textbullet{} \LaTeX\
  \sectionsep
 
@@ -168,12 +168,18 @@
  \section{Experience}
 
  \runsubsection{\href{https://www.glbrc.org/}{Wisconsin Energy Institute}}
- \descript{| Software Engineer}
+ \descript{| Full-Stack Developer }
  \location{Feb 2018 – Present | Madison, WI}
  \vspace{\topsep} % Hacky fix for awkward extra vertical space
  \begin{tightemize}
-  \item I build web tools to help researchers organize and analyze their data.
-  \item I work with a small team of developers in an agile, value-driven environment. I frequently meet one-on-one with users to cater our software to their evolving needs.
+  \item I design custom domain models and user interfaces as part of an \textbf{\href{http://agilemanifesto.org/}{Agile}} dev team to assist 500+ researchers and administrators with a wide variety of workflows.
+  \item I wrote \textbf{\href{http://ruby-doc.org/stdlib-2.2.1/libdoc/rake/rdoc/Rake/Task.html}{rake tasks}} to import mission-critical Excel data for reporting to the \textbf{\href{https://www.energy.gov/}{Department of Energy}}, the institute's primary funding source.
+  \item I audited our \textbf{\href{http://rspec.info/}{Rspec}} + \textbf{\href{https://github.com/teamcapybara/capybara}{Capybara}} test suite, making fixes to align it with industry best practices, which reduced its single-process runtime by over 30\%.
+  \item I implemented file upload functionality with the \textbf{\href{https://github.com/carrierwaveuploader/carrierwave}{CarrierWave}} gem and \textbf{\href{https://www.minio.io/}{Minio}}, an Amazon S3-compatible API.
+  \item I wrote an import script that parses output from analytical instrumentation software into \textbf{\href{https://www.ruby-lang.org/en/}{Ruby}} objects; I visualized this data with \textbf{\href{https://d3js.org/}{D3}}.
+  \item I built dynamic nested forms using \textbf{\href{https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX}{AJAX}} and \textbf{\href{https://jquery.com/}{jQuery}}.
+  \item I wrote shell scripts to assist with database management and config file updates.
+  \item I develop against a \textbf{\href{https://www.docker.com/}{Docker}} clone of our production \textbf{\href{https://www.oracle.com/index.html}{Oracle}} database and participate in code reviews on \textbf{\href{https://about.gitlab.com/}{GitLab}}.
  \end{tightemize}
  \sectionsep
 
@@ -182,7 +188,16 @@
  \location{Oct 2017 – Present | Hong Kong}
  \begin{tightemize}
   \item I built this web-based tutor-matching platform with my co-founder using \textbf{\href{http://rubyonrails.org/}{Ruby on Rails}} and a test-driven, iterative workflow. I'm currently in the process of making the app \textbf{\href{https://developers.google.com/web/progressive-web-apps/}{PWA-compliant}} to expand our user base.
-  \item I made a \textbf{\href{https://markpantutor.wordpress.com/}{WordPress site}} to advertise my personal tutoring services and later migrated it to a \textbf{\href{https://www.markcuipan.com/tutor/}{page}} on my portfolio site. I built the page from scratch using HTML5, CSS3, and JS. I used Bootstrap and media queries to make it responsive and painstakingly took its \href{https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fmarkcuipan.com%2Ftutor%2F&tab=mobile}{\textbf{PageSpeed Insights}} score from 43 to 100/100, learning tons about asset-optimization, design standards, \textbf{\href{https://www.cloudflare.com/}{CDN}}s, and cache-control in the process.
+  \item During this time, I also migrated a \textbf{\href{https://markpantutor.wordpress.com/}{WordPress site}} I had created to advertise my personal tutoring services to a \textbf{\href{https://www.markcuipan.com/tutor/}{page}} on my portfolio site. I built the page from scratch using HTML5, CSS3, and JS. I used Bootstrap and media queries to make it responsive and painstakingly took its \href{https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fmarkcuipan.com%2Ftutor%2F&tab=mobile}{\textbf{PageSpeed Insights}} score from 43 to 100/100, learning about asset-optimization, design standards, \textbf{\href{https://www.cloudflare.com/}{CDN}}s, and cache-control in the process.
+ \end{tightemize}
+ \sectionsep
+
+ \runsubsection{PGoetsch Services, LLC}
+ \descript{| Contractor }
+ \location{Winter 2017 | Wausau, WI}
+ \begin{tightemize}
+  \item I wrote code to send \textbf{\href{https://www.twilio.com/}{SMS messages}} to members of the core \textbf{\href{http://www.jpwindustries.com/}{JPW Industries}} dev team were parts of their import script to fail.
+  \item I built the website for \textbf{\href{https://www.vilasandcompany.com/}{Vilas \& Company}} using \textbf{\href{}{Jekyll}} and \textbf{\href{}{Amazon S3}}.
  \end{tightemize}
  \sectionsep
 
@@ -190,8 +205,7 @@
  \descript{| Contractor }
  \location{Fall 2017 | Oakland, CA}
  \begin{tightemize}
-  \item Requests were timing out because the server was busy solving an optimization problem. Despite a dearth of resources detailing how to get Julia to play nice with Heroku, I resolved the issue and learned a ton about \textbf{\href{https://devcenter.heroku.com/articles/process-model}{Heroku's process model}}, concurrency, and \textbf{\href{https://www.rabbitmq.com/}{task queues}}.
-  \item I also learned the value of communicating early and often - both in code and in customer relations - and gained a better appreciation for the Minimum Viable Product. The difference between 'good enough for now' and 'perfect a while later' is money my clients could be making.
+  \item I resolved an issue with my client's \textbf{\href{https://angular.io/}{Angular}} app in which requests were timing out because his server was busy solving an optimization problem.
  \end{tightemize}
  \sectionsep
 
@@ -203,29 +217,32 @@
  \runsubsection{UW-Madison Dept. of Psych.}
  \descript{| Undergraduate Researcher}
  \location{Jan 2014 – Aug 2014 | Madison, WI}
- Assisted \textbf{\href{https://www.researchgate.net/profile/Stacey_Kigar}{Stacey Kigar}} and \textbf{\href{https://psych.wisc.edu/faculty-anthony-auger.htm}{Prof. Tony Auger}} with data collection and analysis to study epigenetic mechanisms using the central nervous system of Rattus spp. as a model. Wrote a \textbf{\href{https://github.com/factcondenser/calculate-concentrations}{Python script}} to perform calculations and expedite cDNA synthesis.
+ \begin{tightemize}
+  \item I assisted \textbf{\href{https://www.researchgate.net/profile/Stacey_Kigar}{Stacey Kigar}} and \textbf{\href{https://psych.wisc.edu/faculty-anthony-auger.htm}{Prof. Tony Auger}} with data collection and analysis to study epigenetic mechanisms in the central nervous system of rats.
+  \item I wrote a \textbf{\href{https://github.com/factcondenser/calculate-concentrations}{Python script}} to perform calculations and expedite cDNA synthesis.
+ \end{tightemize}
  \sectionsep
 
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  %     AWARDS & ACCOMPLISHMENTS
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
- \section{Awards \& Accomplishments}
- \begin{tabular}{rll}
-  2014 & Top Third                & CS540 Intra-Class Nannon Bot Tournament                                                                      \\
-  2011 & National                 & \href{https://apcentral.collegeboard.org/score-reports-data/awards/scholar-awards}{National AP Scholar}      \\
-  2011 & State                    & \href{http://www.heab.state.wi.us/academicexcellence/hard_copy.html}{Wisconsin Academic Excellence Award}    \\
-  2011 & 2\textsuperscript{nd}/50 & Wisconsin Science Olympiad Tournament                                                                        \\
-  2011 & State                    & \href{https://www.dar.org/national-society/scholarships/dar-related}{DAR Good Citizens Award \& Scholarship}
- \end{tabular}
- \sectionsep
+ %\section{Awards \& Accomplishments}
+ %\begin{tabular}{rll}
+  %2014 & Top Third                & CS540 Intra-Class Nannon Bot Tournament                                                                      \\
+  %2011 & National                 & \href{https://apcentral.collegeboard.org/score-reports-data/awards/scholar-awards}{National AP Scholar}      \\
+  %2011 & State                    & \href{http://www.heab.state.wi.us/academicexcellence/hard_copy.html}{Wisconsin Academic Excellence Award}    \\
+  %2011 & 2\textsuperscript{nd}/50 & Wisconsin Science Olympiad Tournament                                                                        \\
+  %2011 & State                    & \href{https://www.dar.org/national-society/scholarships/dar-related}{DAR Good Citizens Award \& Scholarship}
+ %\end{tabular}
+ %\sectionsep
 
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  %     REFERENCES
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- \section{References}
- \textbf{Westley Bonack} | Software Engineer, \textbf{\href{http://www.gettyimages.com/}{Getty Images}} \\
- \href{mailto:westley.bonack@gmail.com}{westley.bonack@gmail.com} | 414.502.7709 \\
+ %\section{References}
+ %\textbf{Westley Bonack} | Software Engineer, \textbf{\href{http://www.gettyimages.com/}{Getty Images}} \\
+ %\href{mailto:westley.bonack@gmail.com}{westley.bonack@gmail.com} | 414.502.7709 \\
  %\sectionsep
  %\textbf{Bos Smith} | Senior Vice President, %\textbf{\href{http://www.seaburytfx.com/}{Seabury TFX}} \\
 %\href{mailto:bsmith@seaburytfx.com}{bsmith@seaburytfx.com} | +852.5200.5076 \\
