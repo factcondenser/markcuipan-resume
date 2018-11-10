@@ -87,7 +87,6 @@
  \location{May 2015 | Madison, WI}
  Cert. in Chinese Professional Comm. \\
  Dean's List (four semesters) \\
- Cumulative GPA: 3.42 out of 4 \\
  \sectionsep
 
  \subsection{Wausau West}
@@ -116,7 +115,9 @@
  \subsection{Self-Study}
  HarvardX Intro to Computer Science \\
  Michael Hartl's Ruby on Rails Tutorial \\
- Udacity's Developing Android Apps
+ Sandi Metz's Practical OO Design in Ruby \\
+ Paulo Perrotta's Metaprogramming Ruby
+ % Udacity's Developing Android Apps \\
  % Andrew Ng's Machine Learning
  \sectionsep
 
@@ -137,8 +138,8 @@
  RSpec \textbullet{} Capybara \textbullet{} Scrum \\
  HTML5 \textbullet{} CSS3 \textbullet{} SQL \\
  \location{Working knowledge of:}
- React \textbullet{} Python \textbullet{} C \textbullet{} Bash \\
- Git \textbullet{} Docker \textbullet{} AWS \textbullet{} Heroku \\
+ React \textbullet{} Python \textbullet{} Java \textbullet{} C \\
+ Bash \textbullet{} Git \textbullet{} Docker \textbullet{} AWS \\
  \location{Have dabbled in:}
  GraphQL \textbullet{} Swift \textbullet{} Android \\
  Node \textbullet{} Julia \textbullet{} \LaTeX\
