@@ -135,14 +135,15 @@
  \subsection{Programming}
  \location{Most comfortable with:}
  Ruby \textbullet{} Rails \textbullet{} JavaScript \\
- RSpec \textbullet{} Capybara \textbullet{} Scrum \\
- HTML5 \textbullet{} CSS3 \textbullet{} SQL \\
+ React \textbullet{} RSpec \textbullet{} Capybara \\
+ Jest \textbullet{} Cypress \textbullet{} CSS3 \textbullet{} Git \\
  \location{Working knowledge of:}
- React \textbullet{} Python \textbullet{} Java \textbullet{} C \\
- Bash \textbullet{} Git \textbullet{} Docker \textbullet{} AWS \\
+ Node \textbullet{} Python \textbullet{} Java \\
+ Webpack \textbullet{} PostgreSQL \\
+ Bash \textbullet{} Docker \textbullet{} AWS \\
  \location{Have dabbled in:}
- GraphQL \textbullet{} Swift \textbullet{} Android \\
- Node \textbullet{} Julia \textbullet{} \LaTeX\
+ Swift \textbullet{} Android \textbullet{} C \\
+ GraphQL \textbullet{} Angular \textbullet{} \LaTeX\
  \sectionsep
 
  \subsection{Languages}
@@ -174,11 +175,11 @@
  \vspace{\topsep} % Hacky fix for awkward extra vertical space
  \begin{tightemize}
   \item I design custom domain models and user interfaces as part of an \textbf{\href{http://agilemanifesto.org/}{Agile}} dev team to assist 500+ researchers and administrators with a wide variety of workflows.
-  \item I wrote \textbf{\href{http://ruby-doc.org/stdlib-2.2.1/libdoc/rake/rdoc/Rake/Task.html}{rake tasks}} to import mission-critical Excel data for reporting to the \textbf{\href{https://www.energy.gov/}{Department of Energy}}, the institute's primary funding source.
+  \item I wrote \textbf{\href{http://ruby-doc.org/stdlib-2.2.1/libdoc/rake/rdoc/Rake/Task.html}{rake tasks}} to import mission-critical Excel data for reporting to the U.S. Department of Energy, the institute's primary funding source.
   \item I audited our \textbf{\href{http://rspec.info/}{Rspec}} + \textbf{\href{https://github.com/teamcapybara/capybara}{Capybara}} test suite, making fixes to align it with industry best practices, which reduced its single-process runtime by over 30\%.
-  \item I implemented file upload functionality with the \textbf{\href{https://github.com/carrierwaveuploader/carrierwave}{CarrierWave}} gem and \textbf{\href{https://www.minio.io/}{Minio}}, an Amazon S3-compatible API.
   \item I wrote an import script that parses output from analytical instrumentation software into \textbf{\href{https://www.ruby-lang.org/en/}{Ruby}} objects; I visualized this data with \textbf{\href{https://d3js.org/}{D3}}.
-  \item I built dynamic nested forms using \textbf{\href{https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX}{AJAX}} and \textbf{\href{https://jquery.com/}{jQuery}}.
+  \item I built dynamic nested forms and a file tree navigator - the latter backed by a \textbf{\href{http://blog.steveklabnik.com/posts/2011-09-06-the-secret-to-rails-oo-designPORO-implementation}{PORO}}-implemented directed acyclic graph I wrote - using \textbf{\href{https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX}{AJAX}} and \textbf{\href{https://jquery.com/}{jQuery}}.
+  \item I implemented file upload functionality with the \textbf{\href{https://github.com/carrierwaveuploader/carrierwave}{CarrierWave}} gem and \textbf{\href{https://www.minio.io/}{Minio}}, an Amazon S3-compatible API.
   \item I wrote shell scripts to assist with database management and config file updates.
   \item I develop against a \textbf{\href{https://www.docker.com/}{Docker}} clone of our production \textbf{\href{https://www.oracle.com/index.html}{Oracle}} database and participate in code reviews on \textbf{\href{https://about.gitlab.com/}{GitLab}}.
  \end{tightemize}
