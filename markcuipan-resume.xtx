@@ -179,7 +179,7 @@
   \item I audited our \textbf{\href{http://rspec.info/}{Rspec}} + \textbf{\href{https://github.com/teamcapybara/capybara}{Capybara}} test suite, making fixes to align it with industry best practices, which reduced its single-process runtime by over 30\%.
   \item I wrote an import script that parses output from analytical instrumentation software into \textbf{\href{https://www.ruby-lang.org/en/}{Ruby}} objects; I visualized this data with \textbf{\href{https://d3js.org/}{D3}}.
   \item I built dynamic nested forms and a file tree navigator (the latter backed by a \textbf{\href{https://en.wikipedia.org/wiki/Directed_acyclic_graph}{DAG}}-implementation I wrote) using \textbf{\href{https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX}{AJAX}} and \textbf{\href{https://jquery.com/}{jQuery}}.
-  \item I implemented file upload functionality with the \textbf{\href{https://github.com/carrierwaveuploader/carrierwave}{CarrierWave}} gem and \textbf{\href{https://www.minio.io/}{Minio}}, an Amazon S3-compatible API.
+  \item I implemented file upload functionality with \textbf{\href{https://github.com/carrierwaveuploader/carrierwave}{CarrierWave}} and \textbf{\href{https://www.minio.io/}{Minio}}, an Amazon S3-compatible API.
   \item I wrote shell scripts to assist with database management and config file updates.
   \item I develop against a \textbf{\href{https://www.docker.com/}{Docker}} clone of our production \textbf{\href{https://www.oracle.com/index.html}{Oracle}} database and participate in code reviews on \textbf{\href{https://about.gitlab.com/}{GitLab}}.
  \end{tightemize}
