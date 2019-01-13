@@ -113,10 +113,10 @@
 
  \section{Coursework}
  \subsection{Self-Study}
- HarvardX Intro to Computer Science \\
- Michael Hartl's Ruby on Rails Tutorial \\
+ Paulo Perrotta's Metaprogramming Ruby \\
  Sandi Metz's Practical OO Design in Ruby \\
- Paulo Perrotta's Metaprogramming Ruby
+ Michael Hartl's Ruby on Rails Tutorial \\
+ HarvardX Intro to Computer Science \\
  % Udacity's Developing Android Apps \\
  % Andrew Ng's Machine Learning
  \sectionsep
@@ -138,9 +138,8 @@
  React \textbullet{} RSpec \textbullet{} Capybara \\
  Jest \textbullet{} Cypress \textbullet{} CSS3 \textbullet{} Git \\
  \location{Working knowledge of:}
- Node \textbullet{} Python \textbullet{} Java \\
- Webpack \textbullet{} PostgreSQL \\
- Bash \textbullet{} Docker \textbullet{} AWS \\
+ Node \textbullet{} Python \textbullet{} Java \textbullet{} Bash \\
+ PostgreSQL \textbullet{} Docker \textbullet{} AWS \\
  \location{Have dabbled in:}
  Swift \textbullet{} Android \textbullet{} \LaTeX\ \\
  GraphQL \textbullet{} Angular \textbullet{} C
@@ -175,13 +174,15 @@
  \vspace{\topsep} % Hacky fix for awkward extra vertical space
  \begin{tightemize}
   \item I design custom domain models and user interfaces as part of an \textbf{\href{http://agilemanifesto.org/}{Agile}} dev team to assist 500+ researchers and administrators with a wide variety of workflows.
-  \item I wrote \textbf{\href{http://ruby-doc.org/stdlib-2.2.1/libdoc/rake/rdoc/Rake/Task.html}{rake tasks}} to import mission-critical Excel data for reporting to the U.S. Department of Energy, the institute's primary funding source.
-  \item I audited our \textbf{\href{http://rspec.info/}{Rspec}} + \textbf{\href{https://github.com/teamcapybara/capybara}{Capybara}} test suite, making fixes to align it with industry best practices, which reduced its single-process runtime by over 30\%.
+  \item My current project is a \textbf{\href{http://rubyonrails.org/}{Rails}} API/\textbf{\href{https://reactjs.org/}{React}} UI microservice for visualizing respirometry data. I use Jest and Cypress for frontend testing.
   \item I wrote an import script that parses output from analytical instrumentation software into \textbf{\href{https://www.ruby-lang.org/en/}{Ruby}} objects; I visualized this data with \textbf{\href{https://d3js.org/}{D3}}.
   \item I built dynamic nested forms and a file tree navigator (the latter backed by a \textbf{\href{https://en.wikipedia.org/wiki/Directed_acyclic_graph}{DAG}}-implementation I wrote) using \textbf{\href{https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX}{AJAX}} and \textbf{\href{https://jquery.com/}{jQuery}}.
   \item I implemented file upload functionality with \textbf{\href{https://github.com/carrierwaveuploader/carrierwave}{CarrierWave}} and \textbf{\href{https://www.minio.io/}{Minio}}, an Amazon S3-compatible API.
-  \item I wrote shell scripts to assist with database management and config file updates.
-  \item I develop against a \textbf{\href{https://www.docker.com/}{Docker}} clone of our production \textbf{\href{https://www.oracle.com/index.html}{Oracle}} database and participate in code reviews on \textbf{\href{https://about.gitlab.com/}{GitLab}}.
+  \item I audited our \textbf{\href{http://rspec.info/}{Rspec}} + \textbf{\href{https://github.com/teamcapybara/capybara}{Capybara}} test suite, making fixes to align it with industry best practices, which reduced its single-process runtime by over 30\%.
+  \item I wrote \textbf{\href{http://ruby-doc.org/stdlib-2.2.1/libdoc/rake/rdoc/Rake/Task.html}{rake tasks}} to import mission-critical Excel data for reporting to the U.S. Department of Energy, the institute's primary funding source.
+  \item I wrote shell scripts to assist with database management and config file updates, making context switches faster and less error-prone for our entire team.
+  \item I develop against a \textbf{\href{https://www.docker.com/}{Docker}} clone of our production \textbf{\href{https://www.oracle.com/index.html}{Oracle}} database.
+  \item I engage in design discussions with my peers, mapping requirements to tools and their tradeoffs. We use \textbf{\href{https://about.gitlab.com/}{GitLab}} for code reviews and \textbf{\href{https://www.atlassian.com/software/jira}{Jira}} for issue tracking.
  \end{tightemize}
  \sectionsep
 
@@ -189,8 +190,8 @@
  \descript{| Co-founder}
  \location{Oct 2017 – Present | Hong Kong}
  \begin{tightemize}
-  \item I built this web-based tutor-matching platform with my co-founder using \textbf{\href{http://rubyonrails.org/}{Ruby on Rails}} and a test-driven, iterative workflow. I'm currently in the process of making the app \textbf{\href{https://developers.google.com/web/progressive-web-apps/}{PWA-compliant}} to expand our user base.
-  \item During this time, I also migrated a \textbf{\href{https://markpantutor.wordpress.com/}{WordPress site}} I had created to advertise my personal tutoring services to a \textbf{\href{https://www.markcuipan.com/tutor/}{page}} on my portfolio site. I built the page from scratch using HTML5, CSS3, and JS. I used Bootstrap and media queries to make it responsive and painstakingly took its \href{https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fmarkcuipan.com%2Ftutor%2F&tab=mobile}{\textbf{PageSpeed Insights}} score from 43 to 100/100, learning about asset-optimization, design standards, \textbf{\href{https://www.cloudflare.com/}{CDN}}s, and cache-control in the process.
+  \item I built this web-based tutor-matching platform with my co-founder using Ruby on Rails and a test-driven, iterative workflow. I'm currently in the process of making the app \textbf{\href{https://developers.google.com/web/progressive-web-apps/}{PWA-compliant}} to expand our user base.
+  %\item During this time, I also migrated a \textbf{\href{https://markpantutor.wordpress.com/}{WordPress site}} I had created to advertise my personal tutoring services to a \textbf{\href{https://www.markcuipan.com/tutor/}{page}} on my portfolio site. I built the page from scratch using HTML5, CSS3, and JS. I used Bootstrap and media queries to make it responsive and painstakingly took its \href{https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fmarkcuipan.com%2Ftutor%2F&tab=mobile}{\textbf{PageSpeed Insights}} score from 43 to 100/100, learning about asset-optimization, design standards, \textbf{\href{https://www.cloudflare.com/}{CDN}}s, and cache-control in the process.
  \end{tightemize}
  \sectionsep
 
