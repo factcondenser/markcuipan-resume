@@ -116,7 +116,7 @@
  Paulo Perrotta's Metaprogramming Ruby \\
  Sandi Metz's Practical OO Design in Ruby \\
  Michael Hartl's Ruby on Rails Tutorial \\
- HarvardX Intro to Computer Science \\
+ % HarvardX Intro to Computer Science \\
  % Udacity's Developing Android Apps \\
  % Andrew Ng's Machine Learning
  \sectionsep
@@ -141,8 +141,8 @@
  Node \textbullet{} Python \textbullet{} Java \textbullet{} Bash \\
  PostgreSQL \textbullet{} Docker \textbullet{} AWS \\
  \location{Have dabbled in:}
- Swift \textbullet{} Android \textbullet{} \LaTeX\ \\
- GraphQL \textbullet{} Angular \textbullet{} C
+ Elixir \textbullet{} GraphQL \textbullet{} \LaTeX\ \\
+ Android \textbullet{} Flutter \textbullet{} Rust
  \sectionsep
 
  \subsection{Languages}
