@@ -104,6 +104,7 @@
  \section{Links}
  Github:// \href{https://github.com/factcondenser}{\bf{factcondenser}} \\
  LinkedIn:// \href{https://www.linkedin.com/in/markcuipan}{\bf{markcuipan}} \\
+ Twitter:// \href{https://twitter.com/markcuipan}{\bf{markcuipan}} \\
  % Quora: // \href{https://www.quora.com/mark-cui-pan}{\bf{Mark-Cui-Pan}}
  \sectionsep
 
@@ -187,7 +188,7 @@
  \sectionsep
 
  \runsubsection{\href{https://www.baozitutors.com}{Baozi Tutors}}
- \descript{| Co-founder}
+ \descript{| Co-founder }
  \location{Oct 2017 – Present | Hong Kong}
  \begin{tightemize}
   \item I built this web-based tutor-matching platform with my co-founder using Ruby on Rails and a test-driven, iterative workflow. I'm currently in the process of making the app \textbf{\href{https://developers.google.com/web/progressive-web-apps/}{PWA-compliant}} to expand our user base.
