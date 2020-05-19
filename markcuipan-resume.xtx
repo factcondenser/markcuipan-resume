@@ -178,6 +178,7 @@
   \item I used a hashset to improve an algorithm for reaggregating notifications, which decreased that endpoint's memory allocations by over 90\%.
   \item I built a pipeline for disseminating 1K+ peer recommendations per month on top of \textbf{\href{https://sidekiq.org/}{Sidekiq}}, \textbf{\href{https://redis.io/}{Redis}}, and \textbf{\href{https://kafka.apache.org/}{Kafka}}.
   \item I wrote a backfill task to safely and efficiently search and update 180M+ records in our production database.
+  \item I used batching, caching, and indexes to optimize a daily-run archive job, which reduced its execution time by 98\%.
   \item I engage in regular design discussions with my peers, mapping requirements to tools and their tradeoffs.
   \item I use \textbf{\href{https://www.docker.com/}{Docker}} containers for local development, \textbf{\href{https://github.com/}{GitHub}} for code reviews, and \textbf{\href{https://www.pivotaltracker.com/}{Pivotal Tracker}} for issue tracking.
  \end{tightemize}
