@@ -48,7 +48,6 @@
 
 
 \begin{document}
-\protected\def\hreftutor{\href{https://markcuipan.com/tutor/}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -65,7 +64,7 @@
 
 \vspace*{20pt}
 \namesection{Mark}{Cui Pan}{ \urlstyle{same}\url{https://markcuipan.com} \\
-\href{mailto:mark@markcuipan.com}{mark@markcuipan.com} | 608.572.9943
+\href{mailto:markpan@hey.com}{markpan@hey.com} | 608.572.9943
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
