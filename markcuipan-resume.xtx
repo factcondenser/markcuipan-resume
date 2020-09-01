@@ -231,10 +231,15 @@
 
  \section{Community Involvement}
 
- \runsubsectionsm{\href{https://www.open-austin.org/}{Open Austin}}
- \descriptsm{| Contributor }
-  I contribute to projects that aim to improve the quality of life of Austin's residents.
+ \runsubsectionsm{\href{https://code2college.org/}{Code2College}}
+ \descriptsm{| Co-Instructor }
+  I co-lead a biweekly Python and JavaScript course for high-schoolers in Austin.
  \sectionsep
+
+%  \runsubsectionsm{\href{https://www.open-austin.org/}{Open Austin}}
+%  \descriptsm{| Contributor }
+%   I contribute to projects that aim to improve the quality of life of Austin's residents.
+%  \sectionsep
 
  \runsubsectionsm{\href{https://devtogether.co/chapters/madison}{Dev Together}}
  \descriptsm{| Mentor }
