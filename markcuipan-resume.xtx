@@ -113,9 +113,10 @@
 
  \section{Coursework}
  \subsection{Self-Study}
+ Russ Olsen's Design Patterns in Ruby \\
  Paulo Perrotta's Metaprogramming Ruby \\
  Sandi Metz's Practical OO Design in Ruby \\
- Michael Hartl's Ruby on Rails Tutorial \\
+%  Michael Hartl's Ruby on Rails Tutorial \\
  % HarvardX Intro to Computer Science \\
  % Udacity's Developing Android Apps \\
  % Andrew Ng's Machine Learning
@@ -135,14 +136,15 @@
  \subsection{Programming}
  \location{Most comfortable with:}
  Ruby \textbullet{} Rails \textbullet{} JavaScript \\
- React \textbullet{} RSpec \textbullet{} Capybara \\
- Jest \textbullet{} Cypress \textbullet{} CSS3 \textbullet{} Git \\
+ React \textbullet{} Vue \textbullet{} RSpec \textbullet{} Jest \\
+ Cypress \textbullet{} CSS3 \textbullet{} Git \textbullet{} SQL \\
  \location{Working knowledge of:}
- Go \textbullet{} Python \textbullet{} Java \textbullet{} Node \\
- SQL \textbullet{} Docker \textbullet{} AWS \textbullet{} Bash \\
+ Golang \textbullet{} Python \textbullet{} Java \\
+ Kafka \textbullet{} GraphQL \textbullet{} Node \\
+ AWS \textbullet{} Docker \textbullet{} Bash \\
  \location{Have dabbled in:}
- Elixir \textbullet{} GraphQL \textbullet{} \LaTeX\ \\
- Android \textbullet{} Flutter \textbullet{} Rust
+ Elixir \textbullet{} Rust \textbullet{} Android \textbullet{} \LaTeX\ \\
+%  Flutter \textbullet{} Elm
  \sectionsep
 
  \subsection{Languages}
