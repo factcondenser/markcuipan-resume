@@ -170,18 +170,36 @@
 
  \section{Experience}
 
- \runsubsection{\href{https://www.doximity.com/}{Doximity}}
+ \runsubsection{\href{https://www.splitwise.com/}{Splitwise}}
  \descript{| Software Engineer }
- \location{Aug 2019 – Present | Austin, TX}
+ \location{Oct 2022 – Present | New York, NY}
  \vspace{\topsep} % Hacky fix for awkward extra vertical space
  \begin{tightemize}
-  \item I work remotely with the social updates team, maintaining and extending applications responsible for sending out 300K+ user notifications per month.
-  \item I used a hashset to improve an algorithm for reaggregating notifications, which decreased that endpoint's memory allocations by over 90\%.
-  \item I built a pipeline for disseminating 1K+ peer recommendations per month on top of \textbf{\href{https://sidekiq.org/}{Sidekiq}}, \textbf{\href{https://redis.io/}{Redis}}, and \textbf{\href{https://kafka.apache.org/}{Kafka}}.
-  \item I wrote a backfill task to safely and efficiently search and update 180M+ records in our production database.
-  \item I used batching, caching, and indexes to optimize a daily-run archive job, which reduced its execution time by 98\%.
-  \item I engage in regular design discussions with my peers, mapping requirements to tools and their tradeoffs.
-  \item I use \textbf{\href{https://www.docker.com/}{Docker}} containers for local development, \textbf{\href{https://github.com/}{GitHub}} for code reviews, and \textbf{\href{https://www.pivotaltracker.com/}{Pivotal Tracker}} for issue tracking.
+  \item I'm a proud member of the server team.
+ \end{tightemize}
+ \sectionsep
+
+ \runsubsection{\href{https://www.meta.com/}{Meta}}
+ \descript{| Software Engineer }
+ \location{Aug 2021 – Oct 2022 | Menlo Park, CA}
+ \vspace{\topsep} % Hacky fix for awkward extra vertical space
+ \begin{tightemize}
+  \item I created value for millions of businesses and their customers by improving the \textbf{\href{https://www.facebook.com/business/shops}{Shops}} experience.
+ \end{tightemize}
+ \sectionsep
+
+ \runsubsection{\href{https://www.doximity.com/}{Doximity}}
+ \descript{| Software Engineer }
+ \location{Aug 2019 – Aug 2021 | Austin, TX}
+ \vspace{\topsep} % Hacky fix for awkward extra vertical space
+ \begin{tightemize}
+  % \item I work remotely with the social updates team, maintaining and extending applications responsible for sending out 300K+ user notifications per month.
+  \item I improved an algorithm for reaggregating notifications, which decreased that endpoint's memory allocations by over 90\%.
+  % \item I built a pipeline for disseminating 1K+ peer recommendations per month on top of \textbf{\href{https://sidekiq.org/}{Sidekiq}}, \textbf{\href{https://redis.io/}{Redis}}, and \textbf{\href{https://kafka.apache.org/}{Kafka}}.
+  % \item I wrote a backfill task to safely and efficiently search and update 180M+ records in our production database.
+  \item I optimized a daily-run archive job by making use of batching, caching, and a compound index, which reduced the job's execution time by 98\%.
+  % \item I engage in regular design discussions with my peers, mapping requirements to tools and their tradeoffs.
+  % \item I use \textbf{\href{https://www.docker.com/}{Docker}} containers for local development, \textbf{\href{https://github.com/}{GitHub}} for code reviews, and \textbf{\href{https://www.pivotaltracker.com/}{Pivotal Tracker}} for issue tracking.
  \end{tightemize}
  \sectionsep
 
@@ -189,14 +207,15 @@
  \descript{| Software Engineer }
  \location{Feb 2018 – Jul 2019 | Madison, WI}
  \begin{tightemize}
+  \item I wrote rake tasks to import mission-critical Excel data for reporting to the U.S. Department of Energy, the institute's primary funding source.
   % \item I designed custom domain models and user interfaces as part of an \textbf{\href{http://agilemanifesto.org/}{Agile}} dev team to assist 500+ researchers and administrators with a wide variety of workflows.
-  \item I worked on a \textbf{\href{http://rubyonrails.org/}{Rails}} API/\textbf{\href{https://reactjs.org/}{React}} UI microservice for visualizing respirometry data. I used Jest and Cypress for frontend testing.
+  % \item I worked on a \textbf{\href{http://rubyonrails.org/}{Rails}} API/\textbf{\href{https://reactjs.org/}{React}} UI microservice for visualizing respirometry data. I used Jest and Cypress for frontend testing.
   % \item I wrote an import script that parses output from analytical instrumentation software into \textbf{\href{https://www.ruby-lang.org/en/}{Ruby}} objects; I visualized this data with \textbf{\href{https://d3js.org/}{D3}}.
-  \item I built dynamic nested forms and a file tree navigator using \textbf{\href{https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX}{AJAX}} and \textbf{\href{https://jquery.com/}{jQuery}}.
+  % \item I built dynamic nested forms and a file tree navigator using \textbf{\href{https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX}{AJAX}} and \textbf{\href{https://jquery.com/}{jQuery}}.
   % \item I implemented file upload functionality with \textbf{\href{https://github.com/carrierwaveuploader/carrierwave}{CarrierWave}} and \textbf{\href{https://www.minio.io/}{Minio}}, an Amazon S3-compatible API.
-  \item I audited our \textbf{\href{http://rspec.info/}{Rspec}} + \textbf{\href{https://github.com/teamcapybara/capybara}{Capybara}} test suite, making fixes to align it with industry best practices, which reduced its single-process runtime by over 20\%.
+  % \item I audited our \textbf{\href{http://rspec.info/}{Rspec}} + \textbf{\href{https://github.com/teamcapybara/capybara}{Capybara}} test suite, making fixes to align it with industry best practices, which reduced its single-process runtime by over 20\%.
   % \item I wrote \textbf{\href{http://ruby-doc.org/stdlib-2.2.1/libdoc/rake/rdoc/Rake/Task.html}{rake tasks}} to import mission-critical Excel data for reporting to the U.S. Department of Energy, the institute's primary funding source.
-  \item I wrote shell scripts to assist with database management and config file updates, making context switches faster and less error-prone for our entire team.
+  % \item I wrote shell scripts to assist with database management and config file updates, making context switches faster and less error-prone for our entire team.
   % \item I developed against a \textbf{\href{https://www.docker.com/}{Docker}} clone of our production \textbf{\href{https://www.oracle.com/index.html}{Oracle}} database.
  \end{tightemize}
  \sectionsep
@@ -210,22 +229,22 @@
 %  \end{tightemize}
 %  \sectionsep
 
- \runsubsection{PGoetsch Services, LLC}
- \descript{| Contractor }
- \location{Dec 2017 - Feb 2018 | Madison, WI}
- \begin{tightemize}
-  \item I wrote code to send \textbf{\href{https://www.twilio.com/}{SMS messages}} to members of the core \textbf{\href{http://www.jpwindustries.com/}{JPW Industries}} dev team were parts of their import script to fail.
-  \item I built the website for \textbf{\href{https://www.vilasandcompany.com/}{Vilas \& Company}} using \textbf{\href{}{Jekyll}} and \textbf{\href{}{Amazon S3}}.
- \end{tightemize}
- \sectionsep
+%  \runsubsection{PGoetsch Services, LLC}
+%  \descript{| Contractor }
+%  \location{Dec 2017 - Feb 2018 | Madison, WI}
+%  \begin{tightemize}
+%   \item I wrote code to send \textbf{\href{https://www.twilio.com/}{SMS messages}} to members of the core \textbf{\href{http://www.jpwindustries.com/}{JPW Industries}} dev team were parts of their import script to fail.
+%   \item I built the website for \textbf{\href{https://www.vilasandcompany.com/}{Vilas \& Company}} using \textbf{\href{}{Jekyll}} and \textbf{\href{}{Amazon S3}}.
+%  \end{tightemize}
+%  \sectionsep
 
- \runsubsection{\href{http://optimizeyourgrow.com}{Optimize Your Grow}}
- \descript{| Contractor }
- \location{Oct 2017 - Nov 2017 | Madison, WI}
- \begin{tightemize}
-  \item I resolved an issue with my client's \textbf{\href{https://angular.io/}{Angular}} app in which requests were timing out because his server was busy solving an optimization problem.
- \end{tightemize}
- \sectionsep
+%  \runsubsection{\href{http://optimizeyourgrow.com}{Optimize Your Grow}}
+%  \descript{| Contractor }
+%  \location{Oct 2017 - Nov 2017 | Madison, WI}
+%  \begin{tightemize}
+%   \item I resolved an issue with my client's \textbf{\href{https://angular.io/}{Angular}} app in which requests were timing out because his server was busy solving an optimization problem.
+%  \end{tightemize}
+%  \sectionsep
 
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  %     COMMUNITY INVOLVEMENT
